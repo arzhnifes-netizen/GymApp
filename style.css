@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, Arial;
+  background: #0a0a0a;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  padding: 16px;
+  background: #111;
+  border-bottom: 1px solid #222;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#app {
+  padding: 12px;
+}
+
+.card {
+  background: #121212;
+  border: 1px solid #222;
+  border-radius: 14px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #e10600;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 6px;
+  width: 100%;
+}
+
+button.secondary {
+  background: #222;
+}
+
+input, select {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background: #0f0f0f;
+  color: white;
+}
+
+.set {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.set input {
+  flex: 1;
+}
+
+.small {
+  font-size: 12px;
+  color: #aaa;
+}
